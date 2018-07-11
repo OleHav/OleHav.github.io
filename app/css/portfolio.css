@@ -1,0 +1,30 @@
+#portfolio {
+  text-align: center;
+}
+#portfolio p {
+  /*text-align: justify;
+max-width: 1014px;
+margin-left: 170px;
+margin-left: 286px;
+margin-right: 286px;*/
+  line-height: 1.6;
+  font-family: 'CrimsonText Roman', sans-serif;
+  font-size: 18px;
+}
+#portfolio div.portfolio_photos {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}

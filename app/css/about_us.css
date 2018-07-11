@@ -1,0 +1,27 @@
+#about_us {
+  /*height: 750px;*/
+  text-align: center;
+  background-position: center;
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('../img/about us/background_about_us.jpeg');
+}
+#about_us h2 {
+  padding-top: 122px;
+  margin-bottom: 150px;
+}
+#about_us p {
+  text-align: justify;
+  /*max-width: 1014px;
+margin-left: 170px;*/
+  margin-left: 286px;
+  margin-right: 286px;
+  line-height: 1.6;
+  font-family: 'CrimsonText Roman', sans-serif;
+  font-size: 18px;
+}
+#about_us button {
+  margin-top: 94px;
+  margin-bottom: 120px;
+}

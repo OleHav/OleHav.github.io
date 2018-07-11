@@ -1,0 +1,56 @@
+#carpathian header {
+  max-width: 1140px;
+  text-align: center;
+}
+#carpathian header div {
+  float: left;
+  margin-left: 200px;
+  margin-top: 5px;
+  vertical-align: all;
+}
+#carpathian {
+  /*height: 800px;*/
+  background-position: center;
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('../img/banner/background.jpeg');
+}
+#carpathian h1 {
+  font-family: 'Raleway ExtraBold', sans-serif;
+  font-style: bold;
+  font-size: 72px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffcc00;
+  /*margin-top: 140px;*/
+  padding-top: 170px;
+  clear: both;
+}
+#carpathian h2 {
+  font-family: 'Crimson Text', serif;
+  font-style: italic;
+  font-size: 24px;
+  text-align: center;
+  text-transform: lowercase;
+  color: white;
+  margin-top: 16px;
+  padding-bottom: 180px;
+}
+/*#carpathian header div > img {
+	/*float: left;
+	margin-top: 25px;
+	margin-left: 90px;
+}*/
+#carpathian header ul > li {
+  float: right;
+}
+#carpathian header ul > li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 14px 16px;
+}

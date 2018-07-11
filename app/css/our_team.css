@@ -1,0 +1,8 @@
+#our_team {
+  /*height: 800px;*/
+  background-position: center;
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('../img/our team/background_our_team.jpg');
+}
