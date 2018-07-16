@@ -18,6 +18,21 @@
   font-size: 24px;
   text-transform: uppercase;
   padding: 24px 56px;
+  display: inline;
+  cursor: pointer;
+}
+.button_1 {
+  border-left: 3px solid #ffcc00;
+  border-top: 3px solid #ffcc00;
+  border-right: none;
+  border-bottom: 3px solid #ffcc00;
+  background: transparent;
+  font-family: 'Raleway Bold', sans-serif;
+  font-style: bold;
+  font-size: 24px;
+  text-transform: uppercase;
+  padding: 24px 56px;
+  cursor: pointer;
 }
 #carpathian header {
   max-width: 1140px;
@@ -76,7 +91,6 @@
   padding: 14px 16px;
 }
 #about_us {
-  /*height: 750px;*/
   text-align: center;
   background-position: center;
   -webkit-background-size: cover;
@@ -84,14 +98,16 @@
   background-repeat: no-repeat;
   background-image: url('../img/about us/background_about_us.jpeg');
 }
+.section_name_position {
+  padding-top: 122px;
+  margin-bottom: 150px;
+}
 #about_us h2 {
   padding-top: 122px;
   margin-bottom: 150px;
 }
 #about_us p {
   text-align: justify;
-  /*max-width: 1014px;
-margin-left: 170px;*/
   margin-left: 286px;
   margin-right: 286px;
   line-height: 1.6;
@@ -102,18 +118,21 @@ margin-left: 170px;*/
   margin-top: 94px;
   margin-bottom: 120px;
 }
+#portfolio h2 {
+  padding-top: 122px;
+  margin-bottom: 0px;
+}
 #portfolio {
   text-align: center;
 }
 #portfolio p {
-  /*text-align: justify;
-max-width: 1014px;
-margin-left: 170px;
-margin-left: 286px;
-margin-right: 286px;*/
+  margin: 40px;
   line-height: 1.6;
   font-family: 'CrimsonText Roman', sans-serif;
   font-size: 18px;
+}
+#portfolio div.btn-group {
+  margin-bottom: 40px;
 }
 #portfolio div.portfolio_photos {
   display: -webkit-box;
@@ -132,24 +151,41 @@ margin-right: 286px;*/
       -ms-flex-align: center;
           align-items: center;
 }
+#portfolio button {
+  margin-top: 94px;
+  margin-bottom: 120px;
+}
 #our_team {
-  /*height: 800px;*/
   background-position: center;
   -webkit-background-size: cover;
           background-size: cover;
   background-repeat: no-repeat;
   background-image: url('../img/our team/background_our_team.jpg');
 }
+.section_name_position {
+  padding-top: 122px;
+  margin-bottom: 150px;
+}
+#our_team h2 {
+  padding-top: 122px;
+  margin-bottom: 150px;
+}
 #our_skills {
-  /*height: 715px;*/
   background-position: center;
   -webkit-background-size: cover;
           background-size: cover;
   background-repeat: no-repeat;
   background-image: url('../img/our skills/background_our_skills.jpg');
 }
+.section_name_position {
+  padding-top: 122px;
+  margin-bottom: 150px;
+}
+#our_skills h2 {
+  padding-top: 122px;
+  margin-bottom: 150px;
+}
 #quote {
-  /*height: 420px;*/
   background-position: center;
   -webkit-background-size: cover;
           background-size: cover;
@@ -176,13 +212,44 @@ margin-right: 286px;*/
   font-size: 24px;
   color: white;
 }
+.section_name_position {
+  padding-top: 122px;
+  margin-bottom: 150px;
+}
+#services h2 {
+  padding-top: 122px;
+  margin-bottom: 150px;
+}
 #pricing {
-  /*height: 900px;*/
   background-position: center;
   -webkit-background-size: cover;
           background-size: cover;
   background-repeat: no-repeat;
   background-image: url('../img/pricing/background_pricing.jpg');
+}
+.section_name_position {
+  padding-top: 122px;
+  margin-bottom: 150px;
+}
+#pricing h2 {
+  padding-top: 122px;
+  margin-bottom: 150px;
+}
+.section_name_position {
+  padding-top: 122px;
+  margin-bottom: 150px;
+}
+#from_blog h2 {
+  padding-top: 122px;
+  margin-bottom: 150px;
+}
+.section_name_position {
+  padding-top: 122px;
+  margin-bottom: 150px;
+}
+#our_clients h2 {
+  padding-top: 122px;
+  margin-bottom: 150px;
 }
 #form {
   text-align: center;
@@ -203,6 +270,8 @@ margin-right: 286px;*/
   text-decoration: underline;
   -webkit-text-decoration-color: #ffcc00;
           text-decoration-color: #ffcc00;
+  padding-top: 48px;
+  margin-bottom: 92px;
 }
 ::-webkit-input-placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -268,7 +337,7 @@ margin-right: 286px;*/
   right: 172px;
   width: 160px;
   padding: 16px 22px 16px 20px;
-  margin-bottom: 4px;
+  margin-bottom: 48px;
   border: none;
   background: #f4c60b;
   font-size: 10px;
@@ -310,41 +379,21 @@ footer h3 {
   text-transform: none;
   letter-spacing: 2px;
 }
-/*
-
-.fontProperties {
-	font-family: 'Raleway ExtraBold', sans-serif;
-	font-size: 48px;
-	color: black;
-	text-transform: uppercase;
-	text-align: center;
-	text-decoration: underline;
-	text-decoration-color: #ffcc00;
+@media screen and (max-width: 980px) {
+  #quote {
+    width: 100%;
+  }
+  #portfolio div.btn-group {
+    display: none;
+  }
 }
-
-.button {
-	border-style: solid;
-	border-width: 3px;
-	border-color: #ffcc00;
-	background: transparent;
-	
-	font-family: 'Raleway Bold', sans-serif;
-	font-style: bold;
-	font-size: 24px;
-	text-transform: uppercase;
-
-	padding: 24px 56px;
+@media screen and (max-width: 640px) {
+  #quote {
+    width: 100%;
+  }
 }
-
-@import "header";
-@import "about_us";
-@import "portfolio";
-@import "our_team";
-@import "our_skills";
-@import "quote";
-@import "services";
-@import "pricing";
-@import "from_blog";
-@import "our_clients";
-@import "form";
-@import "footer"; */
+@media screen and (max-width: 320px) {
+  #quote {
+    width: 320px;
+  }
+}
