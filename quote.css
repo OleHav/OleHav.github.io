@@ -1,0 +1,30 @@
+#quote {
+  background-position: center;
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('../img/quote/background_quote.jpg');
+  padding-top: 123px;
+  padding-bottom: 123px;
+}
+#quote div.left {
+  text-align: left;
+  margin-left: 215px;
+}
+#quote p.quote {
+  text-align: center;
+  font-family: 'Crimson Text', serif;
+  font-size: 34px;
+  color: white;
+}
+#quote div.right {
+  text-align: right;
+  margin-right: 215px;
+}
+#quote p.author {
+  text-align: right;
+  font-family: 'Raleway', serif;
+  font-size: 24px;
+  color: white;
+  margin-right: 260px;
+}
