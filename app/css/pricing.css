@@ -1,8 +1,15 @@
 #pricing {
-  /*height: 900px;*/
   background-position: center;
   -webkit-background-size: cover;
           background-size: cover;
   background-repeat: no-repeat;
   background-image: url('../img/pricing/background_pricing.jpg');
+}
+.section_name_position {
+  padding-top: 122px;
+  margin-bottom: 150px;
+}
+#pricing h2 {
+  padding-top: 122px;
+  margin-bottom: 150px;
 }

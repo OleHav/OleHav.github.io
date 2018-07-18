@@ -23,7 +23,16 @@
 
 	display: inline;
 	cursor: pointer;
+	//outline: none;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
 }
+
+.button:hover {
+    background-color: #ffcc00;
+    color: white;
+}
+
 
 .button_1 {
 	border-left: 3px solid #ffcc00; 
@@ -40,8 +49,16 @@
 
 	padding: 24px 56px;
 
-	//display: inline;
+	display: inline;
 	cursor: pointer;
+	//outline: none;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button_1:hover {
+    background-color: #ffcc00;
+    color: white;
 }
 
 
@@ -64,14 +81,18 @@
 	}
 	#portfolio div.btn-group {
 		 display: none;
-			
 	}
+	#our_team div.card {
+        width: 100%;
+        display: block;
+    }
 }
 
 @media screen and (max-width:640px) {
 	#quote {
 		width: 100%;
 	}
+	
 }
 
 @media screen and (max-width:320px) {

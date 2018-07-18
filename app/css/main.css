@@ -20,6 +20,14 @@
   padding: 24px 56px;
   display: inline;
   cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  -o-transition-duration: 0.4s;
+     transition-duration: 0.4s;
+}
+.button:hover {
+  background-color: #ffcc00;
+  color: white;
 }
 .button_1 {
   border-left: 3px solid #ffcc00;
@@ -32,7 +40,16 @@
   font-size: 24px;
   text-transform: uppercase;
   padding: 24px 56px;
+  display: inline;
   cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  -o-transition-duration: 0.4s;
+     transition-duration: 0.4s;
+}
+.button_1:hover {
+  background-color: #ffcc00;
+  color: white;
 }
 #carpathian header {
   max-width: 1140px;
@@ -156,19 +173,38 @@
   margin-bottom: 120px;
 }
 #our_team {
+  padding: 12px 180px 12px 180px;
   background-position: center;
   -webkit-background-size: cover;
           background-size: cover;
   background-repeat: no-repeat;
   background-image: url('../img/our team/background_our_team.jpg');
-}
-.section_name_position {
-  padding-top: 122px;
-  margin-bottom: 150px;
+  overflow: hidden;
 }
 #our_team h2 {
-  padding-top: 122px;
-  margin-bottom: 150px;
+  padding-bottom: 40px;
+}
+#our_team div.card {
+  float: left;
+  width: 33.3%;
+  background-color: transparent;
+  margin-top: 0px;
+  padding: 12px 28px 12px 28px;
+  border: none;
+}
+#our_team div h2.cardname {
+  font-family: 'Raleway ExtraBold', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+#our_team div p.title {
+  text-align: center;
+  text-transform: lowercase;
+  padding-top: 0px;
+  padding-bottom: 12px;
 }
 #our_skills {
   background-position: center;
@@ -250,6 +286,34 @@
 #our_clients h2 {
   padding-top: 122px;
   margin-bottom: 150px;
+}
+#our_clients {
+  text-align: center;
+}
+#our_clients div.clients_logo {
+  margin-bottom: 40px;
+}
+#our_clients div.clients_logo {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-color: grey;
+}
+#our_clients {
+  margin-top: 94px;
+  margin-bottom: 120px;
 }
 #form {
   text-align: center;
@@ -385,6 +449,10 @@ footer h3 {
   }
   #portfolio div.btn-group {
     display: none;
+  }
+  #our_team div.card {
+    width: 100%;
+    display: block;
   }
 }
 @media screen and (max-width: 640px) {

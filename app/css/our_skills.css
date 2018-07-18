@@ -1,8 +1,15 @@
-@our _skills {
-  /*height: 715px;*/
+#our_skills {
   background-position: center;
   -webkit-background-size: cover;
           background-size: cover;
   background-repeat: no-repeat;
   background-image: url('../img/our skills/background_our_skills.jpg');
+}
+.section_name_position {
+  padding-top: 122px;
+  margin-bottom: 150px;
+}
+#our_skills h2 {
+  padding-top: 122px;
+  margin-bottom: 150px;
 }
