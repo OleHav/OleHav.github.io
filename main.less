@@ -22,7 +22,45 @@
 	padding: 24px 56px;
 
 	display: inline;
+	cursor: pointer;
+	//outline: none;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
 }
+
+.button:hover {
+    background-color: #ffcc00;
+    color: white;
+}
+
+
+.button_1 {
+	border-left: 3px solid #ffcc00; 
+	border-top: 3px solid #ffcc00;
+	border-right: none;
+	border-bottom: 3px solid #ffcc00;
+	
+	background: transparent;
+	
+	font-family: 'Raleway Bold', sans-serif;
+	font-style: bold;
+	font-size: 24px;
+	text-transform: uppercase;
+
+	padding: 24px 56px;
+
+	display: inline;
+	cursor: pointer;
+	//outline: none;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button_1:hover {
+    background-color: #ffcc00;
+    color: white;
+}
+
 
 @import "header";
 @import "about_us";
@@ -43,14 +81,22 @@
 	}
 	#portfolio div.btn-group {
 		 display: none;
-			
 	}
+	#our_team div.card {
+        width: 100%;
+        display: block;
+	}
+	#services div {
+        width: 100%;
+        display: block;
+    }
 }
 
 @media screen and (max-width:640px) {
 	#quote {
 		width: 100%;
 	}
+	
 }
 
 @media screen and (max-width:320px) {
