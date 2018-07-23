@@ -139,8 +139,8 @@ textarea:focus {
 }
 #about_us p {
   text-align: justify;
-  margin-left: 286px;
-  margin-right: 286px;
+  margin-left: 15%;
+  margin-right: 15%;
   line-height: 1.6;
   font-family: 'CrimsonText Roman', sans-serif;
   font-size: 18px;
@@ -187,7 +187,7 @@ textarea:focus {
   margin-bottom: 120px;
 }
 #our_team {
-  padding: 12px 180px 12px 180px;
+  padding: 12px 14% 12px 14%;
   background-position: center;
   -webkit-background-size: cover;
           background-size: cover;
@@ -533,6 +533,9 @@ footer h3 {
   letter-spacing: 2px;
 }
 @media screen and (max-width: 980px) {
+  #carpathian ul {
+    display: none;
+  }
   #quote {
     width: 100%;
   }
@@ -551,6 +554,31 @@ footer h3 {
 @media screen and (max-width: 640px) {
   #quote {
     width: 100%;
+  }
+}
+@media screen and (max-width: 470px) {
+  #carpathian h1 {
+    font-size: 64px;
+  }
+}
+@media screen and (max-width: 419px) {
+  #carpathian h1 {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 392px) {
+  #carpathian h1 {
+    font-size: 56px;
+  }
+}
+@media screen and (max-width: 370px) {
+  #carpathian h1 {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 330px) {
+  #carpathian h1 {
+    font-size: 46px;
   }
 }
 @media screen and (max-width: 320px) {
