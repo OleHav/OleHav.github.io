@@ -33,6 +33,11 @@
     color: white;
 }
 
+.button:focus,
+input:focus,
+textarea:focus {
+outline: none;
+}
 
 .button_1 {
 	border-left: 3px solid #ffcc00; 
@@ -56,10 +61,24 @@
     transition-duration: 0.4s;
 }
 
+.button_1:focus {
+outline: none;
+}
+
 .button_1:hover {
     background-color: #ffcc00;
     color: white;
 }
+
+.btn-lg:focus {
+	outline: none;
+}
+
+.btn-lg:hover {
+    //background-color: #ffcc00;
+    color: white;
+}
+
 
 
 @import "header";

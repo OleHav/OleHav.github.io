@@ -29,6 +29,11 @@
   background-color: #ffcc00;
   color: white;
 }
+.button:focus,
+input:focus,
+textarea:focus {
+  outline: none;
+}
 .button_1 {
   border-left: 3px solid #ffcc00;
   border-top: 3px solid #ffcc00;
@@ -47,8 +52,17 @@
   -o-transition-duration: 0.4s;
      transition-duration: 0.4s;
 }
+.button_1:focus {
+  outline: none;
+}
 .button_1:hover {
   background-color: #ffcc00;
+  color: white;
+}
+.btn-lg:focus {
+  outline: none;
+}
+.btn-lg:hover {
   color: white;
 }
 #carpathian header {
@@ -232,6 +246,7 @@
 }
 #quote div.left {
   text-align: left;
+  margin-left: 215px;
 }
 #quote p.quote {
   text-align: center;
@@ -241,12 +256,14 @@
 }
 #quote div.right {
   text-align: right;
+  margin-right: 215px;
 }
 #quote p.author {
   text-align: right;
   font-family: 'Raleway', serif;
   font-size: 24px;
   color: white;
+  margin-right: 260px;
 }
 #services {
   padding: 12px 100px 12px 100px;
@@ -291,13 +308,58 @@
   background-repeat: no-repeat;
   background-image: url('../img/pricing/background_pricing.jpg');
 }
-.section_name_position {
-  padding-top: 122px;
-  margin-bottom: 150px;
-}
 #pricing h2 {
-  padding-top: 122px;
-  margin-bottom: 150px;
+  padding-top: 90px;
+  margin-bottom: 90px;
+}
+#pricing div.container div {
+  background: transparent;
+  margin-bottom: 10px;
+}
+#pricing div.container div.card-deck div.card {
+  border: 1px solid white;
+  -webkit-border-radius: 0px;
+          border-radius: 0px;
+  margin-bottom: 40px;
+}
+#pricing div.container div.card-deck div.card div.card-header {
+  -webkit-border-radius: 0px;
+          border-radius: 0px;
+}
+#pricing div.container div.card-deck div.card div.card-header h4 {
+  text-align: center;
+  text-transform: uppercase;
+}
+#pricing div.container div.card-deck div.card div.card-header {
+  background-color: white;
+  font-family: 'Raleway Light', sans-serif;
+  font-size: 20px;
+}
+#pricing div.container div.card-deck div.card div.card-body {
+  text-align: center;
+  font-family: 'Raleway Light', sans-serif;
+  font-size: 22px;
+  line-height: 2.2;
+  margin-bottom: 0px;
+}
+#pricing div.container div.card-deck div.card div.card-body h1 {
+  font-family: 'Raleway Regular', sans-serif;
+  font-size: 45px;
+}
+#pricing div.container div.card-deck div.card div.card-body button.btn-lg {
+  background-color: white;
+  -webkit-border-radius: 0px;
+          border-radius: 0px;
+  border: 1px solid white;
+  width: 96%;
+  margin-bottom: 5px;
+  margin-top: 100px;
+  text-transform: uppercase;
+  font-family: 'Raleway ExtraBold', sans-serif;
+  font-size: 18px;
+}
+#pricing div.container div.card-deck div.card div.card-body button.btn-lg:hover {
+  background-color: #ffcc00;
 }
 .section_name_position {
   padding-top: 122px;
@@ -307,6 +369,10 @@
   padding-top: 122px;
   margin-bottom: 150px;
 }
+#our_clients {
+  background-color: #fbfbfb;
+  overflow: hidden;
+}
 .section_name_position {
   padding-top: 122px;
   margin-bottom: 150px;
@@ -315,33 +381,28 @@
   padding-top: 122px;
   margin-bottom: 150px;
 }
-#our_clients {
+#our_clients article.clients {
+  float: left;
+  overflow: hidden;
+  background-color: white;
+  display: table-cell;
+  vertical-align: middle;
   text-align: center;
+  width: 335px;
+  height: 253px;
+  margin-right: 1px;
+  margin-bottom: 1px;
+  margin-left: 1px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
 }
-#our_clients div.clients_logo {
-  margin-bottom: 40px;
+#our_clients article.clients * {
+  vertical-align: middle;
 }
-#our_clients div.clients_logo {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border-color: grey;
-}
-#our_clients {
-  margin-top: 94px;
-  margin-bottom: 120px;
+#our_clients article.clients span {
+  display: inline-block;
+  height: 100%;
+  width: 1px;
 }
 #form {
   text-align: center;
