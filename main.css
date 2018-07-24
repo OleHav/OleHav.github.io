@@ -226,6 +226,7 @@ textarea:focus {
           background-size: cover;
   background-repeat: no-repeat;
   background-image: url('../img/our skills/background_our_skills.jpg');
+  overflow: hidden;
 }
 .section_name_position {
   padding-top: 122px;
@@ -234,6 +235,44 @@ textarea:focus {
 #our_skills h2 {
   padding-top: 122px;
   margin-bottom: 150px;
+}
+.circle-chart {
+  width: 140px;
+  height: 140px;
+}
+.circle-chart__circle {
+  stroke: #ffcc00;
+  stroke-width: 1px;
+  stroke-linecap: square;
+  fill: none;
+  animation: circle-chart-fill 2s reverse;
+  /* 1 */
+  -webkit-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  /* 2, 3 */
+  -webkit-transform-origin: center;
+      -ms-transform-origin: center;
+          transform-origin: center;
+  /* 4 */
+}
+.circle-chart__background {
+  stroke: white;
+  stroke-width: 1px;
+  fill: none;
+}
+.circle-chart__percent {
+  text-anchor: middle;
+  font-family: 'Raleway Bold', sans-serif;
+  font-style: bold;
+  font-size: 8px;
+  text-align: center;
+}
+#our_skills div.circlechart {
+  float: left;
+  width: 33.3%;
+  padding-left: 10%;
+  padding-bottom: 200px;
 }
 #quote {
   background-position: center;
@@ -543,6 +582,10 @@ footer h3 {
     display: none;
   }
   #our_team div.card {
+    width: 100%;
+    display: block;
+  }
+  #our_skills div.circlechart {
     width: 100%;
     display: block;
   }

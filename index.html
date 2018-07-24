@@ -14,7 +14,8 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i|Raleway:300,400,800" rel="stylesheet">
 	
-	
+	<link rel="stylesheet" href="progresscircle.css">
+		
 </head>
 
 <body>
@@ -97,6 +98,21 @@
 	
 	<section id="our_skills">
 		<h2 class="fontProperties">Our skills</h2>
+		
+			<div class="circlechart" 
+			data-percentage="75">
+			</div>
+		
+		
+			<div class="circlechart" 
+     		data-percentage="90">
+			</div>
+		
+			<div class="circlechart" 
+     		data-percentage="30">
+     		</div>
+		
+		
 	</section>
 	<section id="quote">	
 	<div class = left> 
@@ -253,8 +269,21 @@
 	</footer>
 <!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous">
+</script>
+
+<script src="js/progresscircle.js"></script>
+<script> 
+	$(function(){
+		$('.circlechart').circlechart();
+	});
+</script>
 </body>
 </html>

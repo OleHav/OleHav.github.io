@@ -1,0 +1,36 @@
+.circle-chart {
+  width: 140px;
+  height: 140px;
+}
+
+.circle-chart__circle {
+  stroke: #ffcc00;
+  stroke-width: 1px;
+  stroke-linecap: square;
+  fill: none;
+  animation: circle-chart-fill 2s reverse; /* 1 */ 
+  transform: rotate(-90deg); /* 2, 3 */
+  transform-origin: center; /* 4 */
+}
+
+.circle-chart__background {
+  stroke: white;
+  stroke-width: 1px;
+  fill: none; 
+}
+
+.circle-chart__percent {
+  text-anchor: middle;
+  font-family: 'Raleway Bold', sans-serif;
+	font-style: bold;
+  font-size: 8px;
+  text-align: center;
+}
+
+#our_skills div.circlechart {
+  float: left;
+  width: 33.3%;
+  
+  padding-left: 10%;
+  padding-bottom: 200px;
+}
